@@ -1,0 +1,11 @@
+# Live data and backups must never be committed
+data/
+backups/
+*.db
+*.db-wal
+*.db-shm
+# Build output (made by the GitHub Pages workflow)
+dist/
+node_modules/
+*.log
+.env

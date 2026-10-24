@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Operations and maintenance portal for GAIL's Jamnagar–Loni LPG Pipeline">
+<meta name="theme-color" content="#0A2E6E">
+<title>JLPL (O&amp;M) | GAIL (India) Limited</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon.svg">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#app">Skip to main content</a>
+<div class="demo-bar" id="demobar" hidden>Demo mode: no server found, so everything you add stays in this browser only.</div>
+<div class="offline-bar" role="status">You are offline. You can keep reading, and new records will be sent when you reconnect.</div>
+<div class="util noprint" id="util"></div>
+<header class="topbar" id="hdr"></header>
+<main id="app"><div class="wrap page"><p class="muted">Loading…</p></div></main>
+<footer id="foot"></footer>
+<dialog id="dlg"><div id="dlgbody"></div></dialog>
+<dialog id="cmd" aria-label="Search the portal">
+  <div class="cmd-in"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg><input id="cmdq" placeholder="Search stations, pages, registers" autocomplete="off" aria-label="Search"><button class="btn sm ghost" id="cmdx">Esc</button></div>
+  <div class="cmd-res" id="cmdres" role="listbox"></div>
+  <div class="cmd-foot">Use ↑ ↓ to move, Enter to open</div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<noscript><p style="padding:20px">This portal needs JavaScript. Please enable it in your browser.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>
